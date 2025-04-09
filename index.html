@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lâmpada</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: black;
+      transition: background-color 1s ease;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    img {
+      width: 200px;
+      margin-top: 50px;
+      transition: filter 0.5s ease;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 8px;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lâmpada</h1>
+  <img id="lampada" src="bulb-off.png" alt="Lâmpada Apagada">
+  <br>
+  <button id="botao">Acender</button>
+  <script src="index.js"></script>
+</body>
+</html>
